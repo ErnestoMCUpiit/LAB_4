@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--table>
+        
+        <tbody>
+            <td>
+                <tr>saaaaa</tr>
+                <tr>sdsdsd</tr>
+            </td>
+        </tbody>
+    </table>
+    -->
+    <form action="" method="post">
+        <fieldset>
+            <legend>Detalles de la foto</legend>
+            Titulo: <br>
+            <textarea name="titulo" cols="50" rows="1"></textarea> <br>
+            Descripción: <br>
+            <textarea name="Descripción" cols="70" rows="5"></textarea>
+            <br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            Continente: <br>
+                            <select name="Continentes">
+                                <option value="opt" selected>Escoger Continente</option>
+                                <option value="africa">Africa</option>
+                                <option value="asia">Asia</option>
+                                <option value="europe">Europa</option>
+                                <option value="na">Norte América</option>
+                                <option value="sa">Sur América</option>
+                            </select>
+                            <p>
+                                País:
+                                <select name="paises">
+                                    <option value="pais" selected>Pais</option>
+                                    <option value="canada">Canadá</option>
+                                    <option value="mexico">México</option>
+                                    <option value="eu">Estados Unidos</option>
+                                </select>
+                            </p>
+                            <label for="ciudades">Ciudad:</label><br>
+                            <input list="ciudades" id="cityr" name="ciudades">
+                            <datalist id="ciudades">
+                                <option value="Calgary"></option>
+                                <option value="Montreal"></option>
+                                <option value="Toronto"></option>
+                                <option value="Vancouver"></option>
+                                <option value="Tlaxcala"></option>
+                            </datalist>
+                            <p>
+                                Acepto la licencia de software
+                                <input type="checkbox" name="licencia" value="licencia" checked>
+                            </p>
+                            <p>
+                                Califica esta foto:
+                                <input type="number" name="calificacion" id="calf" size="10">
+                            </p>
+                            <p>
+                                Colección de color:
+                                <br>
+                                <input type="color" name="colores" id="color">
+                            </p>
+                            <p>
+                                <input type="submit" value="Enviar">
+                                <input type="submit" value="limpiar">
+                            </p>
+                        </td>
+                        <td>
+                            Copyright?<br>
+                            <input type="radio" name="copyright">todos los Derechos reservados <br>
+                            <input type="radio" name="copyright">Creative Commons
+                            <p>
+                                licencias Creative Commons <br>
+                                <input type="checkbox" name="atrib" id="lic">Atribución <br>
+                                <input type="checkbox" name="atrib" id="nc">No Comercial <br>
+                                <input type="checkbox" name="atrib" id="Ntd">No hay trabajos derivados <br>
+                                <input type="checkbox" name="atrib" id="comp">Compartir por igual
+
+                            </p>
+                            <br>
+                            <p>
+                                Fecha de toma: <br>
+                                <input type="date" name="toma" id="fechaToma">
+                            </p>
+                            <p>
+                                Hora de toma: <br>
+                                <input type="time" name="hora" id="horaToma">
+                            </p>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>
